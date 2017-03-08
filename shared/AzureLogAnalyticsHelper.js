@@ -37,7 +37,7 @@ function initialize() {
         sharedKey = process.env.OPERATIONS_MANAGEMENT_KEY;
     
     if (logName === "")
-        logName = process.LOG_ANALYTICS_APPNAME;
+        logName = process.env.LOG_ANALYTICS_APPNAME;
 
 
     // at this point validate that we have everything we need to operate the service and 
